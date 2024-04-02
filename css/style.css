@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.bg--nav {
+  background-color: #9DB0CE;
+}
+.nav--btn {
+  background-color: #B8D8E3;
+  width: 100px;
+  border-radius: 20px;
+}
+.nav--btn:hover {
+  background-color: #d5ebf1;
+  transition: ease-in-out 0.2s;
+}
+.table a i:hover {
+  color: #9DB0CE;
+}
+.bg--form {
+  background-color: #9ddff1;
+}
+main {
+  padding-top: 99px;
+  padding-bottom: 130px;
+}
+nav {
+  z-index: 5;
+}
+#grow {
+  overflow: hidden;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+}
+
+#grow:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  z-index: 1;
+}
+.card {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+#book, a {
+  text-decoration: none;
+  color: black;
+}
+#title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#title:hover{
+  overflow: visible; 
+  white-space: normal; 
+
+}
+#bg--book {
+  background-image: linear-gradient(175deg, rgb(244, 244, 242), rgb(55, 179, 236));
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 70px 30px;
+}
+#comment {
+  border-radius: 10px;
+  outline: none;
+}
+#show {
+  position: relative;
+}
+#password {
+  width: 100%;
+}
+#show .toggle-password {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 100px; /* Adjust right spacing as needed */
+  display: flex;
+  align-items: center;
+}
+#show .checkbox {
+  margin-right: 5px; /* Adjust spacing between checkbox and eye icon */
+}
+#show .fa-regular {
+  cursor: pointer;
+  /* Your styles for the eye icon */
+}
